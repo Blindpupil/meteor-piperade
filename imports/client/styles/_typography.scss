@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+$fonts: 'Roboto', sans-serif;
+
+body {
+  font-family: $fonts;
+}
+
+.title {
+  font-size: 1.8rem;
+  font-weight: bolder;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bolder;
+}

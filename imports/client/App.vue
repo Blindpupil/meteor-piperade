@@ -1,16 +1,20 @@
 <template>
 	<div>
-		<h1>Welcome</h1>
-		<p>A paragraph</p>
+		<Login></Login>
 	</div>
 </template>
 
 <script>
-  export default {
-    name: 'App',
-  }
+import Login from './ui/pages/Login'
+
+export default {
+  components: {
+    Login,
+  },
+  name: 'App',
+}
 </script>
 
-<style scoped lang="scss">
-	@import "./main.scss";
+<style lang="scss">
+@import "./main.scss";
 </style>

@@ -1,0 +1,72 @@
+$container-padding: 1.8em;
+$heading-padding: 0.3em;
+
+.title, h1, h2, h3 {
+  padding-top: $heading-padding;
+  padding-bottom: $heading-padding;
+}
+
+.container {
+  padding: $container-padding;
+}
+
+.d-flex {
+  display: flex;
+
+  &.column {
+    flex-direction: column;
+  }
+
+  &.wrap {
+    flex-wrap: wrap;
+  }
+}
+
+.col-1 {
+  width: 1/12%;
+}
+
+.col-2 {
+  width: 2/12%;
+}
+
+.col-3 {
+  width: 3/12%;
+}
+
+.col-4 {
+  width: 4/12%;
+}
+
+.col-5 {
+  width: 5/12%;
+}
+
+.col-6 {
+  width: 6/12%;
+}
+
+.col-7 {
+  width: 7/12%;
+}
+
+.col-8 {
+  width: 8/12%;
+}
+
+.col-9 {
+  width: 9/12%;
+}
+
+.col-10 {
+  width: 10/12%;
+}
+
+.col-11 {
+  width: 11/12%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
